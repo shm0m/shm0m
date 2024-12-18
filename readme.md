@@ -1,4 +1,4 @@
-# Hi there! 👋 Welcome to my GitHub profile
+# Welcome to my GitHub profile
 
 ## About Me
 Hello! I'm a passionate and versatile engineer-in-training at **ECE Paris**. I'm interested into **cybersecurity**, **artificial intelligence**, and **software development**, thriving on building innovative solutions and solving complex challenges. Nicknamed the **Swiss Army Knife** at Station F, I bring versatility and adaptability to every project I contribute to.
