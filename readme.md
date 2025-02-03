@@ -28,7 +28,6 @@ Hello! I'm **Shaima Derouich**, a passionate and versatile engineer-in-training 
 ## 📊 GitHub Stats
 ![Shaima's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shm0m&show_icons=true&theme=radical)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shm0m&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shm0m&layout=compact&theme=dark&hide_border=true)
 
 ---
 
