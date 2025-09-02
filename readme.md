@@ -1,7 +1,7 @@
 # 🚀 Welcome to My GitHub Profile
 
 ## About Me
-Hello! I'm **Shaima Derouich**, a passionate and versatile engineer-in-training at **ECE Paris**. My interests lie in **cybersecurity**, **artificial intelligence**, and **software development**. I thrive on building innovative solutions and tackling complex challenges.
+Hello! I'm **Shaima Derouich**, a versatile engineer-in-training at **ECE Paris**. My interests lie in **cybersecurity**, **artificial intelligence**, and **software development**. I thrive on building innovative solutions and tackling complex challenges.
 
 ---
 
@@ -31,7 +31,7 @@ Hello! I'm **Shaima Derouich**, a passionate and versatile engineer-in-training 
 ---
 
 ## ✨ Fun Fact
-- 🌟 Nicknamed **Swiss Army Knife** at Station F for my ability to adapt across various disciplines.
+- 🌟 Nicknamed **Swiss Army Knife** at Station F.
 
 ---
 
