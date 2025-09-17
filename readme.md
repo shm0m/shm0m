@@ -1,11 +1,11 @@
 # Shaïma D
 
-*Engineer-in-training @ ECE Paris | Cybersecurity • AI • Software Development*
+*Future Engineer @ ECE Paris*
 
 ---
 
 ## About Me
-Hello! I'm **Shaima**, a versatile engineer-in-training at **ECE Paris**.  
+Hello! I'm **Shaima**.  
 I focus on **cybersecurity**, **artificial intelligence**, and **software development**, building innovative solutions and tackling complex challenges.  
 Nicknamed **Swiss Army Knife** at Station F for my versatility and hands-on skills.
 
@@ -14,7 +14,7 @@ Nicknamed **Swiss Army Knife** at Station F for my versatility and hands-on skil
 ## Skills
 
 ### Programming Languages
-[![My Skills](https://skillicons.dev/icons?i=java,python,cpp,c,js,react,html,css,php,matlab,md,xml)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,python,cpp,c,js,react,html,css,php,matlab,md,xml,linux,vim,git,asm)](https://skillicons.dev)
 
 ### Tools & Technologies
 
