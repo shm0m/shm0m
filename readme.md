@@ -30,11 +30,6 @@ Nicknamed **Swiss Army Knife** at Station F for my versatility and hands-on skil
 
 ---
 
-## 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=shm0m&theme=radical&no-frame=true&margin-w=5)](https://github.com/ryo-ma/github-profile-trophy)
-
----
-
 ## Contact
 [![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?&style=flat-square&logo=github&logoColor=white)](https://github.com/shm0m)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)  
