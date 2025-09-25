@@ -18,7 +18,8 @@ Nicknamed **Swiss Army Knife** at Station F for my versatility and hands-on skil
 
 ### Tools & Technologies
 
-- Cybersecurity basics 
+- DevOps
+- Network basics
 - Machine Learning  
 - Embedded Systems
 
