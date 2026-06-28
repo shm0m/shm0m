@@ -1,49 +1,55 @@
-<div align="center">
+![banner](assets/banner.png)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&color=7AF79A&center=true&vCenter=true&width=650&lines=Sha%C3%AFma+D;Cybersecurity+Student+%40+ECE+Engineering+School" />
+Security engineering student at ECE Paris, specializing in AI security and purple team operations.
+Currently at [Sopra Steria](https://www.soprasteria.com/) (D&S / Homeland Security) building autonomous AI agents for zero-day vulnerability detection and hardening CI/CD pipelines at continental scale.
 
-</div>
-
-## Skillset.load()
-
-```bash
-[✔] Cybersecurity
-    ├─ Linux / Windows hardening
-    ├─ System & network security
-    ├─ Vulnerability analysis
-    └─ Offensive & defensive mindset
-
-[✔] DevOps / Cloud
-    ├─ Docker • Kubernetes
-    ├─ CI/CD (GitHub Actions)
-    ├─ Ansible • Vagrant
-    └─ VMware • Infrastructure as Code
-
-[✔] Systems & Networking
-    ├─ Linux (sysadmin)
-    ├─ Windows Server
-    ├─ Wireshark • Network protocols
-    └─ Cisco fundamentals
-
-[✔] Development & Scripting
-    ├─ Python • Bash
-    ├─ C / C++
-    ├─ Java
-    └─ MATLAB
-
-[✔] Web / API
-    ├─ Node.js (Express)
-    ├─ React • Next.js
-    ├─ Swagger / OpenAPI
-    └─ HTML • CSS • JavaScript • PHP
-```
+I break things in CTFs, build things that break other things, and think a lot about what happens when LLMs end up in security-critical systems.
 
 ---
 
+## Work
 
-## Status
+**Security Engineer Intern — Sopra Steria D&S** *(Apr–Aug 2026)*  
+Autonomous AI agents for zero-day detection in isolated environments. SCA/SBOM industrialization via Dependency-Track across a continent-wide CI/CD pipeline. Exploitability assessment and compliance auditing of sensitive application modules.
 
-```bash
-$ uptime
-→ Learning, building, breaking, fixing.
-```
+**SOC Analyst Intern — OSIIC** *(Jan–Feb 2025)*  
+Incident correlation on telecom networks via SIEM. Built an ML model for intelligent log classification. Tuned correlation rules — 20% reduction in false positives.
+
+**Fullstack Developer Intern — STATION F** *(Dec 2023–Feb 2024)*  
+Built and shipped the company's web interface from scratch within a startup incubated at Station F. Frontend integration, motion design, and SEO optimization. Worked closely with business teams on acquisition strategy and brand positioning.
+
+---
+
+## Projects
+
+**[LLMsec](https://github.com/shm0m/LLMsec)** — Fuzzer for RAG pipelines. Tests context injection, vector database privilege escalation, and model poisoning scenarios. Built to stress-test the assumptions most teams make when they ship RAG to production.
+
+**[M.I.R.A](https://github.com/shm0m/M.I.R.A)** — Quadruped robot with embedded AI. Handles locomotion, real-time decision making, and environmental adaptation on constrained hardware.
+
+**[LFS-Pain](https://github.com/shm0m/LFS-Pain)** — Linux built from scratch. Toolchain, kernel, core utilities, bootloader. Every layer compiled by hand until it boots.
+
+**[VM-0verride](https://github.com/shm0m/VM-0verride)** — Experimental kernel developed from a virtual machine with native colorblind support. Unusual problem, unusual approach.
+
+**[Malware-AI-Prediction](https://github.com/shm0m/Malware-AI-Prediction)** — ML-based malware classification using TensorFlow. Trained on behavioral features, not signatures.
+
+---
+
+## CTF & Community
+
+[Root-Me](https://www.root-me.org/shm0m) — 1500+ points. Focus on web exploitation, reverse engineering, and advanced scripting.  
+[TryHackMe](https://tryhackme.com/) — Security Engineer path, certified.  
+[0xECE](https://github.com/0xECE) — Active member. Offensive/defensive workshops, vulnerability research.
+
+---
+
+## Stack
+
+Offensive: Nmap · Metasploit · Burp Suite · Kali · Cutter  
+Defensive: SIEM · Wireshark · Autopsy · Dependency-Track · Forensics  
+AI/ML: Python · TensorFlow · PyTorch · Ollama · ChromaDB · LoRA  
+Infra: Docker · Kubernetes · OpenShift · Ansible · CI/CD  
+Dev: C · ASM · Bash · TypeScript · Node.js · React
+
+---
+
+[LinkedIn](https://linkedin.com/in/shaima-d) · [Root-Me](https://www.root-me.org/shm0m) · [shaima.derouich@proton.me](mailto:shaima.derouich@proton.me)
