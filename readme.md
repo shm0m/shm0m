@@ -16,7 +16,7 @@ Autonomous AI agents for zero-day detection in isolated environments. SCA/SBOM i
 Incident correlation on telecom networks via SIEM. Built an ML model for intelligent log classification. Tuned correlation rules — 20% reduction in false positives.
 
 **Fullstack Developer Intern — STATION F** *(Dec 2023–Feb 2024)*  
-Built and shipped the company's web interface from scratch within a startup incubated at Station F. Frontend integration, motion design, and SEO optimization. Worked closely with business teams on acquisition strategy and brand positioning.
+Built and shipped the web interface for a Station F startup. Frontend integration, motion design, SEO optimization. Worked across teams on acquisition strategy and brand positioning.
 
 ---
 
@@ -28,7 +28,7 @@ Built and shipped the company's web interface from scratch within a startup incu
 
 **[LFS-Pain](https://github.com/shm0m/LFS-Pain)** — Linux built from scratch. Toolchain, kernel, core utilities, bootloader. Every layer compiled by hand until it boots.
 
-**[VM-0verride](https://github.com/shm0m/VM-0verride)** — Experimental kernel developed from a virtual machine with native colorblind support. Unusual problem, unusual approach.
+**[VM-0verride](https://github.com/shm0m/VM-0verride)** — Experimental kernel with native colorblind support. Unusual problem, unusual approach.
 
 **[Malware-AI-Prediction](https://github.com/shm0m/Malware-AI-Prediction)** — ML-based malware classification using TensorFlow. Trained on behavioral features, not signatures.
 
@@ -44,7 +44,7 @@ Built and shipped the company's web interface from scratch within a startup incu
 
 ## Stack
 
-Offensive: Nmap · Metasploit · Burp Suite · Kali · Cutter  
+Offensive: Nmap · Metasploit · Burp Suite · Kali · Ghidra · Cutter  
 Defensive: SIEM · Wireshark · Autopsy · Dependency-Track · Forensics  
 AI/ML: Python · TensorFlow · PyTorch · Ollama · ChromaDB · LoRA  
 Infra: Docker · Kubernetes · OpenShift · Ansible · CI/CD  
@@ -52,4 +52,4 @@ Dev: C · ASM · Bash · TypeScript · Node.js · React
 
 ---
 
-[LinkedIn](https://linkedin.com/in/shaima-d) · [Root-Me](https://www.root-me.org/shm0m) · [shaima.derouich@proton.me](mailto:shaima.derouich@proton.me)
+[Portfolio](https://shaima-drh.vercel.app) · [LinkedIn](https://linkedin.com/in/shaima-d) · [Root-Me](https://www.root-me.org/shm0m) · [shaima.derouich@proton.me](mailto:shaima.derouich@proton.me)
