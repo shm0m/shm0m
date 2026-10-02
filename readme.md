@@ -1,55 +1,103 @@
 ![banner](assets/banner.png)
 
-Security engineering student at ECE Paris, specializing in AI security and purple team operations.
-Currently at [Sopra Steria](https://www.soprasteria.com/) (D&S / Homeland Security) building autonomous AI agents for zero-day vulnerability detection and hardening CI/CD pipelines at continental scale.
+<h1 align="center">Shaïma Derouich</h1>
 
-I break things in CTFs, build things that break other things, and think a lot about what happens when LLMs end up in security-critical systems.
+<p align="center">
+  <b>AI Security Engineer in the making</b> · M2 Cybersecurity @ ECE Paris<br>
+  Agentic AI × offensive security × LLM red teaming
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com/in/shaima-d"><img src="https://img.shields.io/badge/LinkedIn-shaima--d-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://shaima-drh.vercel.app"><img src="https://img.shields.io/badge/Portfolio-shaima--drh.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.root-me.org/klawd"><img src="https://img.shields.io/badge/Root--Me-klawd_·_2100+_pts-1f2937?style=for-the-badge" alt="Root-Me"></a>
+  <a href="mailto:shaima.derouich@proton.me"><img src="https://img.shields.io/badge/Proton-Contact-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open_to-6--month_final--year_internship_·_Jan_2027-2ea44f?style=flat-square" alt="Open to work">
+  <img src="https://img.shields.io/badge/Based_in-Paris_·_open_to_relocation-lightgrey?style=flat-square" alt="Location">
+</p>
 
 ---
 
-## Work
+## About
 
-**Security Engineer Intern — Sopra Steria D&S** *(Apr–Aug 2026)*  
-Autonomous AI agents for zero-day detection in isolated environments. SCA/SBOM industrialization via Dependency-Track across a continent-wide CI/CD pipeline. Exploitability assessment and compliance auditing of sensitive application modules.
+From sovereign-grade environments to startups, I learned to secure fast and break even faster.
+My edge: **find the flaw, prove it by exploiting it, then teach AI to hunt it continuously.**
 
-**SOC Analyst Intern — OSIIC** *(Jan–Feb 2025)*  
-Incident correlation on telecom networks via SIEM. Built an ML model for intelligent log classification. Tuned correlation rules — 20% reduction in false positives.
+I break things in CTFs, build things that break other things, and think a lot about what happens when LLMs end up in security-critical systems.
 
-**Fullstack Developer Intern — STATION F** *(Dec 2023–Feb 2024)*  
-Built and shipped the web interface for a Station F startup. Frontend integration, motion design, SEO optimization. Worked across teams on acquisition strategy and brand positioning.
+**Targeting:** AI Security Engineer, AI Safety Engineer or AppSec Engineer. Long-term goal: Solutions Architect.
+
+---
+
+## Now
+
+- **AI Safety Researcher (capstone, partner startup, under NDA)**: red teaming frontier LLMs against OWASP Top 10 for LLM and MITRE ATLAS. Since Sep 2026.
+- **KASCAD**: a security harness for agentic AI. Findings are reported only after proof of exploitability, never on a bare LLM verdict.
+- **ARGOS**: research on refusal directions in LLM activation space (alignment ablation and detection).
+
+---
+
+## Experience
+
+| When | Role | What I did |
+|---|---|---|
+| **Apr to Aug 2026** | **AI Security Engineer**, Sopra Steria (Homeland Security) | Designed and deployed an agentic AI engine that maps and prioritizes risk (OWASP, CWE, CVE), then proposes fixes (Blue Team) or exploitation vectors (Red Team). Hardened production CI/CD pipelines with integrated scanners. **F1 of 92.7% on SCA; 5/7 critical flaws found vs 0/7 for classic SAST/DAST scanners.** |
+| **Jan to Feb 2025** | **SOC Analyst**, OSIIC (classified networks) | Real-time detection and incident response through a SIEM, 100+ alerts/day. Built an unsupervised ML model to tune EDR thresholds: **20% fewer false positives**. |
+| **Dec 2023 to Feb 2024** | **Software Engineer**, STATION F | Modernized and shipped a full web platform (Next.js, React, TypeScript, Supabase) for an incubated startup: **40% faster load time**. |
 
 ---
 
 ## Projects
 
-**[LLMsec](https://github.com/shm0m/LLMsec)** — Fuzzer for RAG pipelines. Tests context injection, vector database privilege escalation, and model poisoning scenarios. Built to stress-test the assumptions most teams make when they ship RAG to production.
-
-**[M.I.R.A](https://github.com/shm0m/M.I.R.A)** — Quadruped robot with embedded AI. Handles locomotion, real-time decision making, and environmental adaptation on constrained hardware.
-
-**[LFS-Pain](https://github.com/shm0m/LFS-Pain)** — Linux built from scratch. Toolchain, kernel, core utilities, bootloader. Every layer compiled by hand until it boots.
-
-**[VM-0verride](https://github.com/shm0m/VM-0verride)** — Experimental kernel with native colorblind support. Unusual problem, unusual approach.
-
-**[Malware-AI-Prediction](https://github.com/shm0m/Malware-AI-Prediction)** — ML-based malware classification using TensorFlow. Trained on behavioral features, not signatures.
+| Project | Description |
+|---|---|
+| **KASCAD** | Multi-agent AI system for application security with a hardened MCP layer (allowlist, non-repudiable audit, human validation on risky actions). *Python, MCP* |
+| **AEGIS** | Red teaming tool for LLM applications (prompts, tools, data, guardrails, logs, refusal policies), mixing manual testing and automation. *Python* |
+| **ARGOS** | Locating refusal directions in an open-source LLM's activation space. *Python, PyTorch* |
+| [**LLMsec**](https://github.com/shm0m/LLMsec) | Fuzzer for RAG pipelines: context injection, vector DB privilege escalation, model poisoning. |
+| [**M.I.R.A**](https://github.com/shm0m/M.I.R.A) | Quadruped robot with embedded AI: locomotion, real-time decisions, adaptation on constrained hardware. |
+| [**LFS-Pain**](https://github.com/shm0m/LFS-Pain) | Linux built from scratch. Toolchain, kernel, core utils, bootloader, every layer compiled by hand until it boots. |
+| [**VM-0verride**](https://github.com/shm0m/VM-0verride) | Experimental kernel with native colorblind support. |
+| [**Malware-AI-Prediction**](https://github.com/shm0m/Malware-AI-Prediction) | ML malware classification with TensorFlow, trained on behavioral features, not signatures. |
 
 ---
 
 ## CTF & Community
 
-[Root-Me](https://www.root-me.org/shm0m) — 1500+ points. Focus on web exploitation, reverse engineering, and advanced scripting.  
-[TryHackMe](https://tryhackme.com/) — Security Engineer path, certified.  
-[0xECE](https://github.com/0xECE) — Active member. Offensive/defensive workshops, vulnerability research.
+- [**Root-Me**](https://www.root-me.org/klawd): 2100+ points. Web exploitation, reverse engineering, scripting.
+- [**0xECE**](https://github.com/0xECE): active member of the ECE cybersecurity club. Offensive/defensive workshops, CTFs, threat intelligence watch.
 
 ---
 
 ## Stack
 
-Offensive: Nmap · Metasploit · Burp Suite · Kali · Ghidra · Cutter  
-Defensive: SIEM · Wireshark · Autopsy · Dependency-Track · Forensics  
-AI/ML: Python · TensorFlow · PyTorch · Ollama · ChromaDB · LoRA  
-Infra: Docker · Kubernetes · OpenShift · Ansible · CI/CD  
-Dev: C · ASM · Bash · TypeScript · Node.js · React
+<p>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,rust,c,bash,ts,nextjs,react,docker,kubernetes,ansible,gitlab,linux&perline=14" alt="Tech stack">
+</p>
+
+| | |
+|---|---|
+| **Offensive** | Nmap · Metasploit · Burp Suite · Kali · Ghidra · Threat Modeling |
+| **Defensive** | SIEM · Wireshark · Forensics · Linux Hardening · MITRE ATT&CK · Dependency-Track |
+| **AI / ML** | Python · PyTorch · TensorFlow · Scikit-Learn · LangChain · RAG · MCP · Ollama · LoRA |
+| **Infra / DevOps** | Docker · Kubernetes · OpenShift · Ansible · GitLab CI/CD |
+| **Dev** | C · ASM · Rust · Bash · TypeScript · Node.js · React · SQL |
 
 ---
 
-[Portfolio](https://shaima-drh.vercel.app) · [LinkedIn](https://linkedin.com/in/shaima-d) · [Root-Me](https://www.root-me.org/shm0m) · [shaima.derouich@proton.me](mailto:shaima.derouich@proton.me)
+## GitHub
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=shm0m&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shm0m&layout=compact&theme=transparent&hide_border=true" alt="Top languages">
+</p>
+
+---
+
+<p align="center">
+  <i>Always down to talk deeptech.</i><br>
+  <a href="mailto:shaima.derouich@proton.me">shaima.derouich@proton.me</a>
+</p>
