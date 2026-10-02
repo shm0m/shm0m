@@ -58,13 +58,6 @@ I break things in CTFs, build things that break other things, and think a lot ab
 
 ---
 
-## CTF & Community
-
-- [**Root-Me**](https://www.root-me.org/klawd): 2100+ points. Web exploitation, reverse engineering, scripting.
-- [**0xECE**](https://github.com/0xECE): active member of the ECE cybersecurity club. Offensive/defensive workshops, CTFs, threat intelligence watch.
-
----
-
 ## Stack
 
 <p>
@@ -74,7 +67,7 @@ I break things in CTFs, build things that break other things, and think a lot ab
 | | |
 |---|---|
 | **Offensive** | Nmap · Metasploit · Burp Suite · Kali · Ghidra · Threat Modeling |
-| **Defensive** | SIEM · Wireshark · Forensics · Linux Hardening · MITRE ATT&CK · Dependency-Track |
+| **Defensive** | SIEM · Wireshark · Forensics · Linux Hardening · MITRE ATT&CK · Dependency-Track · SDLC |
 | **AI / ML** | Python · PyTorch · TensorFlow · Scikit-Learn · LangChain · RAG · MCP · Ollama · LoRA |
 | **Infra / DevOps** | Docker · Kubernetes · OpenShift · Ansible · GitLab CI/CD |
 | **Dev** | C · ASM · Rust · Bash · TypeScript · Node.js · React · SQL |
