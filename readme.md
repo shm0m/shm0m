@@ -28,7 +28,6 @@ My edge: **find the flaw, prove it by exploiting it, then teach AI to hunt it co
 I break things in CTFs, build things that break other things, and think a lot about what happens when LLMs end up in security-critical systems.
 
 **Targeting:** AI Security Engineer, AI Safety Engineer or AppSec Engineer. 
-**Long-term goal:** Solutions Architect.
 
 ---
 
@@ -55,13 +54,7 @@ I break things in CTFs, build things that break other things, and think a lot ab
 | Project | Description |
 |---|---|
 | **KASCAD** | Multi-agent AI system for application security with a hardened MCP layer (allowlist, non-repudiable audit, human validation on risky actions). *Python, MCP* |
-| **AEGIS** | Red teaming tool for LLM applications (prompts, tools, data, guardrails, logs, refusal policies), mixing manual testing and automation. *Python* |
 | **ARGOS** | Locating refusal directions in an open-source LLM's activation space. *Python, PyTorch* |
-| [**LLMsec**](https://github.com/shm0m/LLMsec) | Fuzzer for RAG pipelines: context injection, vector DB privilege escalation, model poisoning. |
-| [**M.I.R.A**](https://github.com/shm0m/M.I.R.A) | Quadruped robot with embedded AI: locomotion, real-time decisions, adaptation on constrained hardware. |
-| [**LFS-Pain**](https://github.com/shm0m/LFS-Pain) | Linux built from scratch. Toolchain, kernel, core utils, bootloader, every layer compiled by hand until it boots. |
-| [**VM-0verride**](https://github.com/shm0m/VM-0verride) | Experimental kernel with native colorblind support. |
-| [**Malware-AI-Prediction**](https://github.com/shm0m/Malware-AI-Prediction) | ML malware classification with TensorFlow, trained on behavioral features, not signatures. |
 
 ---
 
