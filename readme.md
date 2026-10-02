@@ -3,7 +3,7 @@
 <h1 align="center">Shaïma Derouich</h1>
 
 <p align="center">
-  <b>Master of Engineering,Computer Science @ ECE Paris</b>
+  <b>Aspiring Security Engineer</b> · MEng, Cybersecurity @ ECE Paris<br>
   Agentic AI × offensive security × LLM red teaming
 </p>
 
@@ -11,7 +11,6 @@
   <a href="https://linkedin.com/in/shaima-d"><img src="https://img.shields.io/badge/LinkedIn-shaima--d-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://shaima-drh.vercel.app"><img src="https://img.shields.io/badge/Portfolio-shaimadrh.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.root-me.org/klawd"><img src="https://img.shields.io/badge/Root--Me-klawd_·_2100+_pts-1f2937?style=for-the-badge" alt="Root-Me"></a>
-  <a href="mailto:shaima.derouich@proton.me"><img src="https://img.shields.io/badge/Proton-Contact-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"></a>
 </p>
 
 <p align="center">
@@ -28,7 +27,8 @@ My edge: **find the flaw, prove it by exploiting it, then teach AI to hunt it co
 
 I break things in CTFs, build things that break other things, and think a lot about what happens when LLMs end up in security-critical systems.
 
-**Targeting:** AI Security Engineer, AI Safety Engineer or AppSec Engineer. Long-term goal: Solutions Architect.
+**Targeting:** AI Security Engineer, AI Safety Engineer or AppSec Engineer. 
+**Long-term goal:** Solutions Architect.
 
 ---
 
