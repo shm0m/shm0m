@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/shaima-d"><img src="https://img.shields.io/badge/LinkedIn-shaima--d-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://shaima-drh.vercel.app"><img src="https://img.shields.io/badge/Portfolio-shaimadrh.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.root-me.org/klawd"><img src="https://img.shields.io/badge/Root--Me-klawd_·_2100+_pts-1f2937?style=for-the-badge" alt="Root-Me"></a>
+  <a href="https://www.root-me.org/klawd-1067490?lang=fr"><img src="https://img.shields.io/badge/Root--Me-klawd_·_2100+_pts-1f2937?style=for-the-badge" alt="Root-Me"></a>
 </p>
 
 <p align="center">
