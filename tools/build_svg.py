@@ -102,13 +102,11 @@ CSS = '''
 @keyframes fade{from{opacity:0}to{opacity:1}}
 @keyframes draw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 @keyframes drift{to{transform:translateY(var(--h))}}
-@keyframes spin{to{transform:rotate(360deg)}}
 @keyframes pulse{0%{transform:scale(1);opacity:.55}100%{transform:scale(3.2);opacity:0}}
 .rule{transform-box:fill-box;transform-origin:left center;animation:draw 1.4s cubic-bezier(.65,0,.35,1) .2s both}
 .l{animation:rise .9s cubic-bezier(.16,1,.3,1) both}
 .f{animation:fade .8s ease both}
 .guide{transform-box:fill-box;transform-origin:left center;animation:draw 1.1s cubic-bezier(.65,0,.35,1) both}
-.ring{transform-box:view-box;animation:spin 48s linear infinite}
 .ping{transform-box:fill-box;transform-origin:center;animation:pulse 2s cubic-bezier(.2,.6,.3,1) infinite}
 @keyframes trace{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}
 @keyframes orbit{from{stroke-dashoffset:0}to{stroke-dashoffset:-1000}}
@@ -192,26 +190,6 @@ def banner(theme):
     defs.append(clip); parts.append(line)
     facts = 'ece paris · meng cybersecurity · ai for security, and security for ai'
     parts.append('<g class="f" style="animation-delay:4.4s">%s</g>' % A.run(facts, 84, 362, 14, t['muted']))
-
-    # rotating roundel: red team / blue team around a sober ï
-    cxr, cyr, r = 1022, 205, 96
-    ring_text = 'red team · blue team · ai security · llm red teaming · '
-    n = len(ring_text)
-    glyphs = []
-    for k, ch in enumerate(ring_text):
-        if ch == ' ':
-            continue
-        ang = k * 360 / n
-        w = B.width(ch, 13)
-        glyphs.append('<g transform="rotate(%.2f %d %d)">%s</g>' % (ang, cxr, cyr, B.run(ch, cxr - w / 2, cyr - r + 26, 13, t['ink'])))
-    parts.append('<g class="f" style="animation-delay:.9s">'
-                 '<circle cx="%d" cy="%d" r="%d" fill="none" stroke="%s" stroke-width="12"/>' % (cxr, cyr, r, t['violet']) +
-                 '<circle cx="%d" cy="%d" r="%d" fill="none" stroke="%s" stroke-width="1"/>' % (cxr, cyr, r - 40, t['line']) +
-                 '<g class="ring" style="transform-origin:%dpx %dpx">%s</g>' % (cxr, cyr, ''.join(glyphs)) + '</g>')
-    ix0, iy0, ix1, iy1 = U.bounds('ï')
-    isz = 64
-    isc = isz / U.upm
-    parts.append('<g class="f" style="animation-delay:1.1s">%s</g>' % U.run('ï', cxr - (ix0 + ix1) / 2 * isc, cyr + (iy0 + iy1) / 2 * isc, isz, t['ink']))
 
     # footer of the card
     parts.append('<rect x="60" y="388" width="1080" height="1" fill="%s"/>' % t['line'])
