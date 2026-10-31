@@ -3,14 +3,15 @@
 <h1 align="center">Shaïma Derouich</h1>
 
 <p align="center">
-  <b>Aspiring Security Engineer</b> · MEng, Cybersecurity @ ECE Paris<br>
+  <b>Application Security Engineer</b> · MEng, Cybersecurity @ ECE Paris<br>
   Agentic AI × offensive security × LLM red teaming
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/shaima-d"><img src="https://img.shields.io/badge/LinkedIn-shaima--d-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://shaima-drh.vercel.app"><img src="https://img.shields.io/badge/Portfolio-shaimadrh.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.root-me.org/klawd-1067490?lang=fr"><img src="https://img.shields.io/badge/Root--Me-klawd_·_2100+_pts-1f2937?style=for-the-badge" alt="Root-Me"></a>
+  <a href="https://shaima-drh.vercel.app"><img src="https://img.shields.io/badge/Portfolio-shaima--drh.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.root-me.org/klawd-1067490?lang=fr"><img src="https://img.shields.io/badge/Root--Me-klawd_·_2200+_pts-1f2937?style=for-the-badge" alt="Root-Me"></a>
+  <a href="https://tryhackme.com/p/kl4wd"><img src="https://img.shields.io/badge/TryHackMe-kl4wd_·_top_4%25-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe"></a>
 </p>
 
 <p align="center">
@@ -27,7 +28,9 @@ My edge: **find the flaw, prove it by exploiting it, then teach AI to hunt it co
 
 I break things in CTFs, build things that break other things, and think a lot about what happens when LLMs end up in security-critical systems.
 
-**Targeting:** AI Security Engineer, AI Safety Engineer or AppSec Engineer. 
+It all started with a Subway Surfers cheat tutorial. There is a flag hidden somewhere in my portfolio, if you like that kind of thing.
+
+**Targeting:** AI Security Engineer or AI Safety Engineer, building on my AppSec background.
 
 ---
 
@@ -43,9 +46,18 @@ I break things in CTFs, build things that break other things, and think a lot ab
 
 | When | Role | What I did |
 |---|---|---|
-| **Apr to Aug 2026** | **AI Security Engineer**, Sopra Steria (Homeland Security) | Designed and deployed an agentic AI engine that maps and prioritizes risk (OWASP, CWE, CVE), then proposes fixes (Blue Team) or exploitation vectors (Red Team). Hardened production CI/CD pipelines with integrated scanners. **F1 of 92.7% on SCA; 5/7 critical flaws found vs 0/7 for classic SAST/DAST scanners.** |
+| **Apr to Aug 2026** | **Application Security Engineer**, Sopra Steria (Homeland Security) | Designed and deployed an agentic AI engine that maps and prioritizes risk (OWASP, CWE, CVE), then proposes fixes (Blue Team) or exploitation vectors (Red Team). Hardened production CI/CD pipelines with integrated scanners. Now being rolled out as an internal tool across the group. **F1 of 92.7% on SCA; 5/7 critical flaws found vs 0/7 for classic SAST/DAST scanners.** |
 | **Jan to Feb 2025** | **SOC Analyst**, OSIIC (classified networks) | Real-time detection and incident response through a SIEM, 100+ alerts/day. Built an unsupervised ML model to tune EDR thresholds: **20% fewer false positives**. |
 | **Dec 2023 to Feb 2024** | **Software Engineer**, STATION F | Modernized and shipped a full web platform (Next.js, React, TypeScript, Supabase) for an incubated startup: **40% faster load time**. |
+
+---
+
+## Education
+
+| When | Program |
+|---|---|
+| **2022 to 2027** | **MEng Cybersecurity, international section**, ECE Paris. Pentesting, forensics, IAM, reverse engineering, LLM security. Minors: defense and generative AI. |
+| **End of 2024** | **Semester abroad**, OMNES Education London School. Machine learning, deep learning, applied maths and web development, all in English. |
 
 ---
 
@@ -71,6 +83,16 @@ I break things in CTFs, build things that break other things, and think a lot ab
 | **AI / ML** | Python · PyTorch · TensorFlow · Scikit-Learn · LangChain · RAG · MCP |
 | **Infra / DevOps** | Docker · Kubernetes · OpenShift · Ansible · GitLab CI/CD |
 | **Dev** | C · Rust · Bash · TypeScript · Node.js · React · SQL |
+
+---
+
+## Certifications and languages
+
+- **AWS Certified Cloud Practitioner** (CLF-C02), Jun 2026
+- **CompTIA CySA+** (CS0-003), Apr 2026
+- **Security Engineer Certificate**, TryHackMe, Apr 2026
+- **ANSSI** MOOC on information systems security, Feb 2025
+- **Languages**: French (native), English (C1, TOEIC), Arabic, Spanish (B2)
 
 ---
 
