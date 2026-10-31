@@ -1,111 +1,77 @@
-![banner](assets/banner.png)
-
-<h1 align="center">Shaïma Derouich</h1>
-
-<p align="center">
-  <b>Application Security Engineer</b> · MEng, Cybersecurity @ ECE Paris<br>
-  Agentic AI × offensive security × LLM red teaming
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" width="100%" alt="Shaïma Derouich, application security engineer: AI security and LLM red teaming. AI for security, and security for AI.">
+</picture>
 
 <p align="center">
-  <a href="https://linkedin.com/in/shaima-d"><img src="https://img.shields.io/badge/LinkedIn-shaima--d-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://shaima-drh.vercel.app"><img src="https://img.shields.io/badge/Portfolio-shaima--drh.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.root-me.org/klawd-1067490?lang=fr"><img src="https://img.shields.io/badge/Root--Me-klawd_·_2200+_pts-1f2937?style=for-the-badge" alt="Root-Me"></a>
-  <a href="https://tryhackme.com/p/kl4wd"><img src="https://img.shields.io/badge/TryHackMe-kl4wd_·_top_4%25-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe"></a>
+  <a href="https://shaima-drh.vercel.app"><img src="https://img.shields.io/badge/portfolio-shaima--drh-6343b3?style=for-the-badge&labelColor=141619" alt="Portfolio"></a>
+  <a href="https://linkedin.com/in/shaima-d"><img src="https://img.shields.io/badge/linkedin-shaima--d-6343b3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=141619" alt="LinkedIn"></a>
+  <a href="https://www.root-me.org/klawd-1067490?lang=fr"><img src="https://img.shields.io/badge/root--me-@klawd1-6343b3?style=for-the-badge&labelColor=141619" alt="Root-Me"></a>
+  <a href="https://tryhackme.com/p/kl4wd"><img src="https://img.shields.io/badge/tryhackme-@kl4wd-6343b3?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=141619" alt="TryHackMe"></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Open_to-6--month_final--year_internship_·_Jan_2027-2ea44f?style=flat-square" alt="Open to work">
-  <img src="https://img.shields.io/badge/Based_in-Paris_·_open_to_relocation-lightgrey?style=flat-square" alt="Location">
-</p>
+<br>
 
----
+```yaml
+$ whoami
+name:     Shaïma Derouich
+role:     application security engineer
+focus:    [ai security, llm red teaming, agentic offensive tooling]
+mindset:  red by instinct, blue by discipline
+school:   ECE Paris · MEng Cybersecurity, international section (2022 → 2027)
+based:    Paris, FR · open to relocation
+speaks:   [french, english, arabic, spanish]
+```
 
-## About
+<details>
+<summary><b>where it started</b> · a Subway Surfers cheat and one very expensive character</summary>
+<br>
 
-From sovereign-grade environments to startups, I learned to secure fast and break even faster.
-My edge: **find the flaw, prove it by exploiting it, then teach AI to hunt it continuously.**
+Thirty seconds was my all-time record at Subway Surfers. I wanted Prince, the most expensive character in the game, and I was not going to ask for my dad's credit card. So I typed the question every future security person asks one day: *"how to hack subway surfers?"*
 
-I break things in CTFs, build things that break other things, and think a lot about what happens when LLMs end up in security-critical systems.
+A Lucky Patcher tutorial later, my keys and coins shot up and Prince was mine. The win faded fast. The spark did not: I wanted to understand what happens under the interface, and make it my job.
 
-It all started with a Subway Surfers cheat tutorial. There is a flag hidden somewhere in my portfolio, if you like that kind of thing.
+There is a flag hidden somewhere in my portfolio, if you like that kind of thing.
 
-**Targeting:** AI Security Engineer or AI Safety Engineer, building on my AppSec background.
+</details>
 
----
+<br>
 
-## Now
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/method-dark.svg">
+  <img src="assets/method-light.svg" width="100%" alt="The method. 01, find: the flaw nobody modeled, in code, configs, prompts and weights. 02, prove: exploit it, or it isn't real; no finding without a working proof. 03, teach: hand the hunt to machines, agents that never stop looking. Then repeat: while true; do hunt; done.">
+</picture>
 
-- **AI Safety Researcher (capstone, partner startup, under NDA)**: red teaming frontier LLMs against OWASP Top 10 for LLM and MITRE ATLAS. Since Sep 2026.
-- **KASCAD**: a security harness for agentic AI. Findings are reported only after proof of exploitability, never on a bare LLM verdict.
-- **ARGOS**: research on refusal directions in LLM activation space (alignment ablation and detection).
+<br>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arsenal-dark.svg">
+  <img src="assets/arsenal-light.svg" width="100%" alt="Arsenal. Offense: Burp Suite, Metasploit, Nmap, Ghidra, Kali Linux, threat modeling. Defense: SIEM, Wireshark, forensics, Linux hardening, MITRE ATT&CK, Dependency-Track, SDLC. AI and ML: PyTorch, TensorFlow, scikit-learn, LangChain, RAG, MCP. Infra: Docker, Kubernetes, OpenShift, Ansible, GitLab CI/CD. Code: Python, Rust, C, Bash, TypeScript, Node.js, React, SQL.">
+</picture>
 
-## Experience
+<br>
 
-| When | Role | What I did |
-|---|---|---|
-| **Apr to Aug 2026** | **Application Security Engineer**, Sopra Steria (Homeland Security) | Designed and deployed an agentic AI engine that maps and prioritizes risk (OWASP, CWE, CVE), then proposes fixes (Blue Team) or exploitation vectors (Red Team). Hardened production CI/CD pipelines with integrated scanners. Now being rolled out as an internal tool across the group. **F1 of 92.7% on SCA; 5/7 critical flaws found vs 0/7 for classic SAST/DAST scanners.** |
-| **Jan to Feb 2025** | **SOC Analyst**, OSIIC (classified networks) | Real-time detection and incident response through a SIEM, 100+ alerts/day. Built an unsupervised ML model to tune EDR thresholds: **20% fewer false positives**. |
-| **Dec 2023 to Feb 2024** | **Software Engineer**, STATION F | Modernized and shipped a full web platform (Next.js, React, TypeScript, Supabase) for an incubated startup: **40% faster load time**. |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/proof-dark.svg">
+  <img src="assets/proof-light.svg" width="100%" alt="Proof of work. Root-Me: 2200+ points, 105 challenges. TryHackMe: top 4% worldwide, 98 rooms, 23 badges. Certified 4 times: AWS, CompTIA CySA+, TryHackMe, ANSSI.">
+</picture>
 
----
+<p align="center"><sub>AWS Certified Cloud Practitioner · CompTIA CySA+ · TryHackMe Security Engineer · ANSSI SecNumAcadémie</sub></p>
 
-## Education
+<br>
 
-| When | Program |
-|---|---|
-| **2022 to 2027** | **MEng Cybersecurity, international section**, ECE Paris. Pentesting, forensics, IAM, reverse engineering, LLM security. Minors: defense and generative AI. |
-| **End of 2024** | **Semester abroad**, OMNES Education London School. Machine learning, deep learning, applied maths and web development, all in English. |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shm0m/shm0m/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/shm0m/shm0m/output/snake-light.svg" width="100%" alt="My GitHub contribution graph, eaten by a snake every day">
+</picture>
 
----
+<br>
 
-## Projects
+<a href="mailto:shaima.derouich@proton.me">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+    <img src="assets/footer-light.svg" width="100%" alt="ping shaima.derouich@proton.me: always down to talk deeptech">
+  </picture>
+</a>
 
-| Project | Description |
-|---|---|
-| **KASCAD** | Multi-agent AI system for application security with a hardened MCP layer (allowlist, non-repudiable audit, human validation on risky actions). *Python, MCP* |
-| **ARGOS** | Locating refusal directions in an open-source LLM's activation space. *Python, PyTorch* |
-
----
-
-## Stack
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,rust,c,bash,ts,nextjs,react,docker,kubernetes,ansible,gitlab,linux&perline=14" alt="Tech stack">
-</p>
-
-| | |
-|---|---|
-| **Offensive** | Nmap · Metasploit · Burp Suite · Kali · Ghidra · Threat Modeling |
-| **Defensive** | SIEM · Wireshark · Forensics · Linux Hardening · MITRE ATT&CK · Dependency-Track · SDLC |
-| **AI / ML** | Python · PyTorch · TensorFlow · Scikit-Learn · LangChain · RAG · MCP |
-| **Infra / DevOps** | Docker · Kubernetes · OpenShift · Ansible · GitLab CI/CD |
-| **Dev** | C · Rust · Bash · TypeScript · Node.js · React · SQL |
-
----
-
-## Certifications and languages
-
-- **AWS Certified Cloud Practitioner** (CLF-C02), Jun 2026
-- **CompTIA CySA+** (CS0-003), Apr 2026
-- **Security Engineer Certificate**, TryHackMe, Apr 2026
-- **ANSSI** MOOC on information systems security, Feb 2025
-- **Languages**: French (native), English (C1, TOEIC), Arabic, Spanish (B2)
-
----
-
-## GitHub
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=shm0m&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shm0m&layout=compact&theme=transparent&hide_border=true" alt="Top languages">
-</p>
-
----
-
-<p align="center">
-  <i>Always down to talk deeptech.</i><br>
-  <a href="mailto:shaima.derouich@proton.me">shaima.derouich@proton.me</a>
-</p>
+<!-- reading the source is the right instinct. the flag isn't here, but you're warm: https://shaima-drh.vercel.app -->
