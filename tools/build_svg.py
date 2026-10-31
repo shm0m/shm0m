@@ -228,7 +228,7 @@ def footer(theme):
     defs, parts = [], []
     parts.append(B.run('$', 60, 62, 18, t['violet']))
     c1, l1 = typed(A, 'ping shaima.derouich@proton.me', 82, 62, 18, t['ink'], .5, .045, 'p1', t['violet'], False)
-    reply = '64 bytes from shaïma: icmp_seq=1 ttl=64 time=0.42 ms'
+    reply = '64 bytes from shaima: icmp_seq=1 ttl=64 time=0.42 ms'
     parts += [l1, '<g class="f" style="animation-delay:2.1s">%s</g>' % A.run(reply, 82, 94, 16, t['muted'])]
     c2, l2 = typed(A, 'always down to talk deeptech.', 82, 128, 18, t['ink'], 2.7, .05, 'p2', t['violet'], True)
     parts.append(l2)
@@ -307,22 +307,21 @@ def proof(theme):
     t = THEMES[theme]
     U, A, B = faces()
     W, H = 1200, 296
-    parts = topbar(t, A, 'proof of work', 'root-me @klawd1 · tryhackme @kl4wd')
-    cells = (('root-me', '2200', '+', 'points · 105 challenges'),
-             ('tryhackme', 'top 4', '%', 'worldwide · 98 rooms · 23 badges'),
-             ('certified', '04', '', 'aws · comptia cysa+ · thm · anssi'))
-    size = min(76, min(320 / U.width(big + acc, 1, -.02) for _, big, acc, _ in cells))
+    parts = topbar(t, A, 'proof of work', 'root-me @klawd1')
+    cells = (('score', '2200', '+', 'points on root-me'),
+             ('solved', '105', '', 'challenges, and counting'))
+    pitch = 1140 / len(cells)  # each cell gets an equal share of the 1080 content width, plus a 60 gutter
+    size = min(76, min((pitch - 60) / U.width(big + acc, 1, -.02) for _, big, acc, _ in cells))
     for i, (label, big, acc, cap) in enumerate(cells):
-        x = 60 + i * 380
+        x = 60 + i * pitch
         if i:
-            parts.append('<rect class="vguide" x="%d" y="104" width="1" height="160" fill="%s" style="animation-delay:%.2fs"/>' % (x - 30, t['line'], .4 + i * .1))
+            parts.append('<rect class="vguide" x="%.1f" y="104" width="1" height="160" fill="%s" style="animation-delay:%.2fs"/>' % (x - 30, t['line'], .4 + i * .1))
         parts.append('<g class="f" style="animation-delay:%.2fs">%s</g>' % (.3 + i * .2, A.run(label, x, 120, 14, t['muted'])))
         for k, ch in enumerate(big + acc):  # numerals rise one by one, the unit in violet
             parts.append('<g class="l" style="animation-delay:%.2fs">%s</g>' % (.4 + i * .2 + k * .06, U.run(ch, x, 212, size, t['violet'] if k >= len(big) else t['ink'])))
             x += U.width(ch, size, -.02)
-        parts.append('<g class="f" style="animation-delay:%.2fs">%s</g>' % (1.2 + i * .2, A.run(cap, 60 + i * 380, 252, 15, t['muted'])))
-    return svg(W, H, t, [U.defs(), A.defs(), B.defs()], parts,
-               'proof of work: 2200+ points on Root-Me (105 challenges), top 4% worldwide on TryHackMe (98 rooms, 23 badges), 4 certifications (AWS, CompTIA CySA+, TryHackMe, ANSSI)')
+        parts.append('<g class="f" style="animation-delay:%.2fs">%s</g>' % (1.2 + i * .2, A.run(cap, 60 + i * pitch, 252, 15, t['muted'])))
+    return svg(W, H, t, [U.defs(), A.defs(), B.defs()], parts, 'proof of work: 2200+ points and 105 challenges solved on Root-Me')
 
 def svg(W, H, t, defs, parts, title):
     return ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" role="img" aria-label="%s">'

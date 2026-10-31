@@ -7,14 +7,13 @@
   <a href="https://shaima-drh.vercel.app"><img src="https://img.shields.io/badge/portfolio-shaima--drh-6343b3?style=for-the-badge&labelColor=141619" alt="Portfolio"></a>
   <a href="https://linkedin.com/in/shaima-d"><img src="https://img.shields.io/badge/linkedin-shaima--d-6343b3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=141619" alt="LinkedIn"></a>
   <a href="https://www.root-me.org/klawd-1067490?lang=fr"><img src="https://img.shields.io/badge/root--me-@klawd1-6343b3?style=for-the-badge&labelColor=141619" alt="Root-Me"></a>
-  <a href="https://tryhackme.com/p/kl4wd"><img src="https://img.shields.io/badge/tryhackme-@kl4wd-6343b3?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=141619" alt="TryHackMe"></a>
 </p>
 
 <br>
 
 ```yaml
 $ whoami
-name:     Shaïma Derouich
+name:     Shaima Derouich
 role:     application security engineer
 focus:    [ai security, llm red teaming, agentic offensive tooling]
 mindset:  red by instinct, blue by discipline
@@ -53,10 +52,8 @@ There is a flag hidden somewhere in my portfolio, if you like that kind of thing
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/proof-dark.svg">
-  <img src="assets/proof-light.svg" width="100%" alt="Proof of work. Root-Me: 2200+ points, 105 challenges. TryHackMe: top 4% worldwide, 98 rooms, 23 badges. Certified 4 times: AWS, CompTIA CySA+, TryHackMe, ANSSI.">
+  <img src="assets/proof-light.svg" width="100%" alt="Proof of work: 2200+ points and 105 challenges solved on Root-Me.">
 </picture>
-
-<p align="center"><sub>AWS Certified Cloud Practitioner · CompTIA CySA+ · TryHackMe Security Engineer · ANSSI SecNumAcadémie</sub></p>
 
 <br>
 
