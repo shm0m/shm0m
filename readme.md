@@ -3,72 +3,48 @@
   <img src="assets/banner-light.svg" width="100%" alt="Shaïma Derouich, application security engineer: AI security and LLM red teaming. AI for security, and security for AI.">
 </picture>
 
-<p align="center">
-  <a href="https://shaima-drh.vercel.app"><img src="https://img.shields.io/badge/portfolio-shaima--drh-6343b3?style=for-the-badge&labelColor=141619" alt="Portfolio"></a>
-  <a href="https://linkedin.com/in/shaima-d"><img src="https://img.shields.io/badge/linkedin-shaima--d-6343b3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=141619" alt="LinkedIn"></a>
-  <a href="https://www.root-me.org/klawd-1067490?lang=fr"><img src="https://img.shields.io/badge/root--me-@klawd1-6343b3?style=for-the-badge&labelColor=141619" alt="Root-Me"></a>
-</p>
-
 <br>
 
-```yaml
-$ whoami
-name:     Shaima Derouich
-role:     application security engineer
-focus:    [ai security, llm red teaming, agentic offensive tooling]
-mindset:  red by instinct, blue by discipline
-school:   ECE Paris · MEng Cybersecurity, international section (2022 → 2027)
-based:    Paris, FR · open to relocation
-speaks:   [french, english, arabic, spanish]
-```
+I work where application security meets AI. I look for the flaw nobody modeled, prove it by exploiting it, then build tools that keep looking for it.
+
+Based in Paris, open to relocation. I speak French, English, Arabic and Spanish. Off the clock: 2200+ points and 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,rust,c,bash,ts,nodejs,react,docker,kubernetes,ansible,gitlab,linux&perline=15&theme=dark">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,rust,c,bash,ts,nodejs,react,docker,kubernetes,ansible,gitlab,linux&perline=15&theme=light" width="100%" alt="Python, PyTorch, TensorFlow, scikit-learn, Rust, C, Bash, TypeScript, Node.js, React, Docker, Kubernetes, Ansible, GitLab, Linux">
+</picture>
+
+| focus | AI security · LLM red teaming · agentic offensive tooling |
+|:---|:---|
+| **offense** | Burp Suite · Metasploit · Nmap · Ghidra · Kali Linux · threat modeling |
+| **defense** | SIEM · Wireshark · forensics · Linux hardening · MITRE ATT&CK · Dependency-Track · SDLC |
+| **ai / ml** | PyTorch · TensorFlow · scikit-learn · LangChain · RAG · MCP |
+| **infra** | Docker · Kubernetes · OpenShift · Ansible · GitLab CI/CD |
+| **code** | Python · Rust · C · Bash · TypeScript · Node.js · React · SQL |
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shm0m&theme=github_dark">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shm0m&theme=github" width="49%" alt="GitHub stats for shm0m">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shm0m&theme=github_dark">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shm0m&theme=github" width="49%" alt="Top languages by commit for shm0m">
+  </picture>
+</p>
 
 <details>
-<summary><b>where it started</b> · a Subway Surfers cheat and one very expensive character</summary>
+<summary>Where it started</summary>
 <br>
 
 Thirty seconds was my all-time record at Subway Surfers. I wanted Prince, the most expensive character in the game, and I was not going to ask for my dad's credit card. So I typed the question every future security person asks one day: *"how to hack subway surfers?"*
 
 A Lucky Patcher tutorial later, my keys and coins shot up and Prince was mine. The win faded fast. The spark did not: I wanted to understand what happens under the interface, and make it my job.
 
-There is a flag hidden somewhere in my portfolio, if you like that kind of thing.
-
 </details>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/method-dark.svg">
-  <img src="assets/method-light.svg" width="100%" alt="The method. 01, find: the flaw nobody modeled, in code, configs, prompts and weights. 02, prove: exploit it, or it isn't real; no finding without a working proof. 03, teach: hand the hunt to machines, agents that never stop looking. Then repeat: while true; do hunt; done.">
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/arsenal-dark.svg">
-  <img src="assets/arsenal-light.svg" width="100%" alt="Arsenal. Offense: Burp Suite, Metasploit, Nmap, Ghidra, Kali Linux, threat modeling. Defense: SIEM, Wireshark, forensics, Linux hardening, MITRE ATT&CK, Dependency-Track, SDLC. AI and ML: PyTorch, TensorFlow, scikit-learn, LangChain, RAG, MCP. Infra: Docker, Kubernetes, OpenShift, Ansible, GitLab CI/CD. Code: Python, Rust, C, Bash, TypeScript, Node.js, React, SQL.">
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/proof-dark.svg">
-  <img src="assets/proof-light.svg" width="100%" alt="Proof of work: 2200+ points and 105 challenges solved on Root-Me.">
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shm0m/shm0m/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/shm0m/shm0m/output/snake-light.svg" width="100%" alt="My GitHub contribution graph, eaten by a snake every day">
-</picture>
-
-<br>
-
-<a href="mailto:shaima.derouich@proton.me">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-    <img src="assets/footer-light.svg" width="100%" alt="ping shaima.derouich@proton.me: always down to talk deeptech">
-  </picture>
-</a>
+[portfolio](https://shaima-drh.vercel.app) · [linkedin](https://linkedin.com/in/shaima-d) · [shaima.derouich@proton.me](mailto:shaima.derouich@proton.me)
 
 <!-- reading the source is the right instinct. the flag isn't here, but you're warm: https://shaima-drh.vercel.app -->
