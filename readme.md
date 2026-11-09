@@ -10,7 +10,8 @@ I work where application security meets AI. I look for the flaw nobody modeled, 
 Based in Paris, open to relocation. I speak French, English, Arabic and Spanish. Off the clock: 2200+ points and 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,rust,c,bash,ts,nodejs,react,docker,kubernetes,ansible,gitlab,linux&perline=15&theme=dark">
+  <!-- srcset splits on commas, so the icon list is written with %2C -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cpytorch%2Ctensorflow%2Csklearn%2Crust%2Cc%2Cbash%2Cts%2Cnodejs%2Creact%2Cdocker%2Ckubernetes%2Cansible%2Cgitlab%2Clinux&perline=15&theme=dark">
   <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,rust,c,bash,ts,nodejs,react,docker,kubernetes,ansible,gitlab,linux&perline=15&theme=light" width="100%" alt="Python, PyTorch, TensorFlow, scikit-learn, Rust, C, Bash, TypeScript, Node.js, React, Docker, Kubernetes, Ansible, GitLab, Linux">
 </picture>
 
