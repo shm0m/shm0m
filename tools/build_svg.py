@@ -71,27 +71,14 @@ class Face:
 def banner(theme):
     t = THEMES[theme]
     U = Face(ROOT + '/fonts/unbounded-600-800-latin.woff2', 'u', wght=800)
-    A = Face(ROOT + '/fonts/anonymous-pro-400-latin.woff2', 'a')
-    W, H = 1200, 352
-    name, size, track = 'shaïma derouich', 84, -.02
-    assert U.width(name, size, track) <= 1080, 'name overflows the card'
-    base = 126 + U.cap * size / U.upm  # cap top sits 56px under the top rule
-    right = 'paris, fr'
-    parts = [
-        A.run('open to a 6-month final-year internship · jan 2027', 60, 49, 15, t['muted']),
-        A.run(right, 1140 - A.width(right, 15), 49, 15, t['muted']),
-        '<rect x="60" y="70" width="1080" height="1" fill="%s"/>' % t['line'],
-        U.run(name, 56, base, size, t['ink'], track),
-        A.run('application security engineer · ai security · llm red teaming', 60, base + 58, 20, t['ink']),
-        A.run('ece paris · meng cybersecurity · ai for security, and security for ai', 60, base + 90, 15, t['muted']),
-        '<rect x="60" y="%.1f" width="1080" height="1" fill="%s"/>' % (base + 124, t['line']),
-        A.run('shaima-drh.vercel.app', 60, base + 146, 13, t['violet']),
-        A.run('github.com/shm0m', 1140 - A.width('github.com/shm0m', 13), base + 146, 13, t['muted']),
-    ]
-    title = 'Shaïma Derouich, application security engineer: AI security and LLM red teaming'
-    return ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" role="img" aria-label="%s">'
-            '<title>%s</title><defs>%s%s</defs><rect x=".5" y=".5" width="%d" height="%d" rx="14" fill="%s" stroke="%s"/>%s</svg>'
-            ) % (W, H, W, H, title, title, U.defs(), A.defs(), W - 1, H - 1, t['bg'], t['line'], ''.join(parts))
+    W, H = 1200, 300
+    name, size, track = 'shaïma', 140, -.02
+    w = U.width(name, size, track)
+    base = (H + U.cap * size / U.upm) / 2  # centers the cap height (the ascenders of h) vertically
+    word = U.run(name, (W - w) / 2, base, size, t['ink'], track)  # before defs(): run() records the glyphs it needs
+    return ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" role="img" aria-label="Shaïma">'
+            '<title>Shaïma</title><defs>%s</defs><rect x=".5" y=".5" width="%d" height="%d" rx="14" fill="%s" stroke="%s"/>%s</svg>'
+            ) % (W, H, W, H, U.defs(), W - 1, H - 1, t['bg'], t['line'], word)
 
 for theme in THEMES:
     p = '%s/banner-%s.svg' % (OUT, theme)
