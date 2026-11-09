@@ -7,7 +7,7 @@
 
 **Shaima Derouich**, application security engineer, focused on AI security and LLM red teaming. I look for the flaw nobody modeled, prove it by exploiting it, then build tools that keep looking for it.
 
-MEng Cybersecurity at ECE Paris. Open to a 6-month final-year internship from January 2027, in Paris or elsewhere. I speak French, English, Arabic and Spanish. Off the clock: 2200+ points and 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
+MEng Cybersecurity at ECE Paris, based in Paris. I speak French, English, Arabic and Spanish. Off the clock: 2200+ points and 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
 
 <picture>
   <!-- srcset splits on commas, so the icon list is written with %2C -->
