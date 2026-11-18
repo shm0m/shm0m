@@ -7,8 +7,8 @@
 
 I'm **Shaima**, a cybersecurity and AI engineer. I build agents that hunt vulnerabilities, and I red-team LLMs: AI for security, and security for AI. A finding only counts once I've exploited it.
 
-- Incoming vulnerability management engineer at Thales
-- Bug bounty hunter on [HackerOne](https://hackerone.com/shm0m?type=user) since August 2026
+- Incoming vulnerability management engineer at Thales: AI that finds which CVEs are actually exploitable
+- Bug bounty hunter on [HackerOne](https://hackerone.com/shm0m?type=user) since August 2026: prompt injection and guardrail bypass
 - 2200+ points across 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr)
 - Final year of an MEng in Cybersecurity at ECE Paris
 - French, English, Arabic, Spanish
