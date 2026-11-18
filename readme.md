@@ -29,8 +29,8 @@ MEng Cybersecurity at ECE Paris, based in Paris. I speak French, English, Arabic
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shm0m&theme=github" width="49%" alt="GitHub stats for shm0m">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shm0m&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shm0m&theme=github" width="49%" alt="Top languages by commit for shm0m">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shm0m&theme=github_dark">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shm0m&theme=github" width="49%" alt="Top languages by repo for shm0m">
   </picture>
 </p>
 
@@ -47,5 +47,7 @@ A Lucky Patcher tutorial later, my keys and coins shot up and Prince was mine. T
 <br>
 
 [portfolio](https://www.shaimadrh.xyz) · [linkedin](https://linkedin.com/in/shaima-d) · [shaima.derouich@proton.me](mailto:shaima.derouich@proton.me)
+
+<sub>built with intent, not filler.</sub>
 
 <!-- reading the source is the right instinct. the flag isn't here, but you're warm: https://www.shaimadrh.xyz -->
