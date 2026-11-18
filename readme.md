@@ -7,7 +7,7 @@
 
 **Shaima Derouich**, application security engineer, focused on AI security and LLM red teaming. I look for the flaw nobody modeled, prove it by exploiting it, then build tools that keep looking for it.
 
-MEng Cybersecurity at ECE Paris, based in Paris. I speak French, English, Arabic and Spanish. Bug bounty hunter on HackerOne since August 2026; off the clock, 2200+ points and 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
+MEng Cybersecurity at ECE Paris, based in Paris. I speak French, English, Arabic and Spanish. Bug bounty hunter on [HackerOne](https://hackerone.com/shm0m?type=user) since August 2026; off the clock, 2200+ points and 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
 
 <picture>
   <!-- srcset splits on commas, so the icon list is written with %2C -->
