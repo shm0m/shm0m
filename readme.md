@@ -5,23 +5,20 @@
 
 <br>
 
-**Shaima Derouich**, application security engineer, focused on AI security and LLM red teaming. I look for the flaw nobody modeled, prove it by exploiting it, then build tools that keep looking for it.
+I'm **Shaima**, an application security engineer. I find the flaw nobody modeled, prove it with an exploit, then build tools that keep hunting for it.
 
-MEng Cybersecurity at ECE Paris, based in Paris. I speak French, English, Arabic and Spanish. Bug bounty hunter on [HackerOne](https://hackerone.com/shm0m?type=user) since August 2026; off the clock, 2200+ points and 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
+I'm in the final year of an MEng in Cybersecurity at ECE Paris, and I speak French, English, Arabic and Spanish.
 
-<picture>
-  <!-- srcset splits on commas, so the icon list is written with %2C -->
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cpytorch%2Ctensorflow%2Csklearn%2Crust%2Cc%2Cbash%2Cts%2Cnodejs%2Creact%2Cdocker%2Ckubernetes%2Cansible%2Cgitlab%2Clinux&perline=15&theme=dark">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,rust,c,bash,ts,nodejs,react,docker,kubernetes,ansible,gitlab,linux&perline=15&theme=light" width="100%" alt="Python, PyTorch, TensorFlow, scikit-learn, Rust, C, Bash, TypeScript, Node.js, React, Docker, Kubernetes, Ansible, GitLab, Linux">
-</picture>
+I've been hunting bugs on [HackerOne](https://hackerone.com/shm0m?type=user) since August 2026. Off the clock, I've scored 2200+ points across 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
 
-| focus | AI security · LLM red teaming · agentic offensive tooling |
+<!-- logos from Simple Icons and Iconify in one violet (#8568db) that reads on both GitHub themes; concepts get symbolic icons -->
+| focus | AI security · LLM red teaming · alignment · evals · agentic offensive tooling |
 |:---|:---|
-| **offense** | Burp Suite · Metasploit · Nmap · Ghidra · Kali Linux · threat modeling |
-| **defense** | SIEM · Wireshark · forensics · Linux hardening · MITRE ATT&CK · Dependency-Track · SDLC |
-| **ai / ml** | PyTorch · TensorFlow · scikit-learn · LangChain · RAG · MCP |
-| **infra** | Docker · Kubernetes · OpenShift · Ansible · GitLab CI/CD |
-| **code** | Python · Rust · C · Bash · TypeScript · Node.js · React · SQL |
+| **offense** | <img src="https://cdn.simpleicons.org/burpsuite/8568db" height="14" alt=""> Burp Suite · <img src="https://cdn.simpleicons.org/metasploit/8568db" height="14" alt=""> Metasploit · <img src="https://api.iconify.design/file-icons/nmap.svg?color=%238568db" height="14" alt=""> Nmap · <img src="https://api.iconify.design/devicon-plain/ghidra.svg?color=%238568db" height="14" alt=""> Ghidra · <img src="https://cdn.simpleicons.org/kalilinux/8568db" height="14" alt=""> Kali Linux · <img src="https://api.iconify.design/mdi/shield-alert.svg?color=%238568db" height="14" alt=""> threat modeling |
+| **defense** | <img src="https://api.iconify.design/mdi/monitor-dashboard.svg?color=%238568db" height="14" alt=""> SIEM · <img src="https://cdn.simpleicons.org/wireshark/8568db" height="14" alt=""> Wireshark · <img src="https://api.iconify.design/mdi/fingerprint.svg?color=%238568db" height="14" alt=""> forensics · <img src="https://cdn.simpleicons.org/linux/8568db" height="14" alt=""> Linux hardening · <img src="https://api.iconify.design/mdi/view-grid.svg?color=%238568db" height="14" alt=""> MITRE ATT&CK · <img src="https://cdn.simpleicons.org/owasp/8568db" height="14" alt=""> Dependency-Track · <img src="https://api.iconify.design/mdi/sync.svg?color=%238568db" height="14" alt=""> SDLC |
+| **ai / ml** | <img src="https://cdn.simpleicons.org/pytorch/8568db" height="14" alt=""> PyTorch · <img src="https://cdn.simpleicons.org/tensorflow/8568db" height="14" alt=""> TensorFlow · <img src="https://cdn.simpleicons.org/scikitlearn/8568db" height="14" alt=""> scikit-learn · <img src="https://cdn.simpleicons.org/langchain/8568db" height="14" alt=""> LangChain · <img src="https://api.iconify.design/mdi/database-search.svg?color=%238568db" height="14" alt=""> RAG · <img src="https://cdn.simpleicons.org/modelcontextprotocol/8568db" height="14" alt=""> MCP |
+| **infra** | <img src="https://cdn.simpleicons.org/docker/8568db" height="14" alt=""> Docker · <img src="https://cdn.simpleicons.org/kubernetes/8568db" height="14" alt=""> Kubernetes · <img src="https://cdn.simpleicons.org/redhatopenshift/8568db" height="14" alt=""> OpenShift · <img src="https://cdn.simpleicons.org/ansible/8568db" height="14" alt=""> Ansible · <img src="https://cdn.simpleicons.org/gitlab/8568db" height="14" alt=""> GitLab CI/CD |
+| **code** | <img src="https://cdn.simpleicons.org/python/8568db" height="14" alt=""> Python · <img src="https://cdn.simpleicons.org/rust/8568db" height="14" alt=""> Rust · <img src="https://cdn.simpleicons.org/c/8568db" height="14" alt=""> C · <img src="https://cdn.simpleicons.org/gnubash/8568db" height="14" alt=""> Bash · <img src="https://cdn.simpleicons.org/typescript/8568db" height="14" alt=""> TypeScript · <img src="https://cdn.simpleicons.org/nodedotjs/8568db" height="14" alt=""> Node.js · <img src="https://cdn.simpleicons.org/react/8568db" height="14" alt=""> React · <img src="https://api.iconify.design/mdi/database.svg?color=%238568db" height="14" alt=""> SQL |
 
 <p>
   <picture>
@@ -46,7 +43,7 @@ A Lucky Patcher tutorial later, my keys and coins shot up and Prince was mine. T
 
 <br>
 
-[portfolio](https://www.shaimadrh.xyz) · [linkedin](https://linkedin.com/in/shaima-d) · [shaima.derouich@proton.me](mailto:shaima.derouich@proton.me)
+[portfolio](https://www.shaimadrh.xyz) · [linkedin](https://linkedin.com/in/shaima-d) · [email](mailto:shaima.derouich@proton.me)
 
 <sub>built with intent, not filler.</sub>
 
