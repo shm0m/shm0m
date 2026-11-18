@@ -5,14 +5,16 @@
 
 <br>
 
-I'm **Shaima**, an application security engineer. I find the flaw nobody modeled, prove it with an exploit, then build tools that keep hunting for it.
+I'm **Shaima**, a cybersecurity and AI engineer. I build agents that hunt vulnerabilities, and I red-team LLMs: AI for security, and security for AI. A finding only counts once I've exploited it.
 
-I'm in the final year of an MEng in Cybersecurity at ECE Paris, and I speak French, English, Arabic and Spanish.
-
-I've been hunting bugs on [HackerOne](https://hackerone.com/shm0m?type=user) since August 2026. Off the clock, I've scored 2200+ points across 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
+- Incoming vulnerability management engineer at Thales
+- Bug bounty hunter on [HackerOne](https://hackerone.com/shm0m?type=user) since August 2026
+- 2200+ points across 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr)
+- Final year of an MEng in Cybersecurity at ECE Paris
+- French, English, Arabic, Spanish
 
 <!-- logos from Simple Icons and Iconify in one violet (#8568db) that reads on both GitHub themes; concepts get symbolic icons -->
-| focus | AI security · LLM red teaming · alignment · evals · agentic offensive tooling |
+| focus | <img src="https://api.iconify.design/mdi/shield-lock.svg?color=%238568db" height="14" alt=""> AI security · <img src="https://api.iconify.design/mdi/sword-cross.svg?color=%238568db" height="14" alt=""> LLM red teaming · <img src="https://api.iconify.design/mdi/compass.svg?color=%238568db" height="14" alt=""> alignment · <img src="https://api.iconify.design/mdi/clipboard-check.svg?color=%238568db" height="14" alt=""> evals · <img src="https://api.iconify.design/mdi/robot.svg?color=%238568db" height="14" alt=""> agentic offensive tooling |
 |:---|:---|
 | **offense** | <img src="https://cdn.simpleicons.org/burpsuite/8568db" height="14" alt=""> Burp Suite · <img src="https://cdn.simpleicons.org/metasploit/8568db" height="14" alt=""> Metasploit · <img src="https://api.iconify.design/file-icons/nmap.svg?color=%238568db" height="14" alt=""> Nmap · <img src="https://api.iconify.design/devicon-plain/ghidra.svg?color=%238568db" height="14" alt=""> Ghidra · <img src="https://cdn.simpleicons.org/kalilinux/8568db" height="14" alt=""> Kali Linux · <img src="https://api.iconify.design/mdi/shield-alert.svg?color=%238568db" height="14" alt=""> threat modeling |
 | **defense** | <img src="https://api.iconify.design/mdi/monitor-dashboard.svg?color=%238568db" height="14" alt=""> SIEM · <img src="https://cdn.simpleicons.org/wireshark/8568db" height="14" alt=""> Wireshark · <img src="https://api.iconify.design/mdi/fingerprint.svg?color=%238568db" height="14" alt=""> forensics · <img src="https://cdn.simpleicons.org/linux/8568db" height="14" alt=""> Linux hardening · <img src="https://api.iconify.design/mdi/view-grid.svg?color=%238568db" height="14" alt=""> MITRE ATT&CK · <img src="https://cdn.simpleicons.org/owasp/8568db" height="14" alt=""> Dependency-Track · <img src="https://api.iconify.design/mdi/sync.svg?color=%238568db" height="14" alt=""> SDLC |
