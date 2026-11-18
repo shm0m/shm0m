@@ -1,6 +1,7 @@
 # Builds the README banner SVGs. Text is converted to glyph paths (no font loading),
 # so they render identically on GitHub, in dark and light, whatever its CSP does to fonts.
-import math, os, re
+# Also builds the violet "top languages by repo" card shown next to the GitHub stats card.
+import collections, html, json, math, os, re, urllib.request
 from fontTools.ttLib import TTFont
 from fontTools.varLib import instancer
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -80,7 +81,49 @@ def banner(theme):
             '<title>Shaïma</title><defs>%s</defs><rect x=".5" y=".5" width="%d" height="%d" rx="14" fill="%s" stroke="%s"/>%s</svg>'
             ) % (W, H, W, H, U.defs(), W - 1, H - 1, t['bg'], t['line'], word)
 
+# the frame of the github / github_dark themes the stats card uses, so the two cards match side by side
+CARD = {'light': dict(bg='#ffffff', line='#e4e2e2', title='#0366d6', text='#586069',
+                      shades=((.45, .17), (.56, .15), (.67, .12), (.77, .09), (.86, .06))),
+        'dark': dict(bg='#0d1117', line='#2e343b', title='#0366d6', text='#77909c',
+                     shades=((.74, .16), (.63, .15), (.53, .13), (.44, .11), (.36, .09)))}
+
+def repo_languages(user='shm0m', top=5):
+    """primary language of each public repo, most common first (ties keep GitHub's order, like the original card)"""
+    # shortcut: a snapshot taken when this script runs, rerun it after adding repos
+    with urllib.request.urlopen('https://api.github.com/users/%s/repos?per_page=100&type=owner' % user) as r:
+        counts = collections.Counter(x['language'] for x in json.load(r) if x['language'])
+    if 'C++' in counts and 'C' in counts:
+        # the user prefers C in C++'s slot: C keeps its own repo count, C++ is left out
+        c = counts.pop('C')
+        counts = collections.Counter({('C' if k == 'C++' else k): (c if k == 'C++' else n) for k, n in counts.items()})
+    langs = counts.most_common(top)
+    assert langs, 'no repo languages found'
+    return langs
+
+def languages(theme, langs):
+    c = CARD[theme]
+    total, a, parts = sum(n for _, n in langs), -math.pi / 2, []
+    at = lambda r, t: '%.2f %.2f' % (230 + r * math.cos(t), 120 + r * math.sin(t))
+    for i, ((name, n), (L, C)) in enumerate(zip(langs, c['shades'])):
+        b = a + min(2 * math.pi * n / total, 2 * math.pi - 1e-4)  # a full circle arc would draw nothing
+        big = int(b - a > math.pi)
+        fill = oklch(L, C, 292)
+        parts.append('<path d="M%s A60 60 0 %d 1 %s L%s A35 35 0 %d 0 %s Z" fill="%s" stroke="%s" stroke-width="2"/>'
+                     % (at(60, a), big, at(60, b), at(35, b), big, at(35, a), fill, c['bg']))
+        y = 58 + i * 25.2
+        parts.append('<rect x="40" y="%.1f" width="14" height="14" fill="%s"/><text x="62" y="%.1f" fill="%s" font-size="14">%s</text>'
+                     % (y, fill, y + 12, c['text'], html.escape(name)))
+        a = b
+    label = 'Top languages by repo: ' + ', '.join('%s (%d)' % (name, n) for name, n in langs)
+    return ('<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-label="%s">'
+            '<title>%s</title><style>*{font-family:\'Segoe UI\',Ubuntu,"Helvetica Neue",Sans-Serif}</style>'
+            '<rect x="1" y="1" rx="5" ry="5" width="338" height="198" fill="%s" stroke="%s"/>'
+            '<text x="30" y="40" fill="%s" font-size="22">Top Languages by Repo</text>%s</svg>'
+            ) % (html.escape(label), html.escape(label), c['bg'], c['line'], c['title'], ''.join(parts))
+
+langs = repo_languages()
 for theme in THEMES:
-    p = '%s/banner-%s.svg' % (OUT, theme)
-    open(p, 'w', encoding='utf-8').write(banner(theme))
-    print(p, os.path.getsize(p) // 1024, 'KB')
+    for name, svg in (('banner', banner(theme)), ('languages', languages(theme, langs))):
+        p = '%s/%s-%s.svg' % (OUT, name, theme)
+        open(p, 'w', encoding='utf-8').write(svg)
+        print(p, os.path.getsize(p) // 1024, 'KB')

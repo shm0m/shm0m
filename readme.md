@@ -29,8 +29,8 @@ MEng Cybersecurity at ECE Paris, based in Paris. I speak French, English, Arabic
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shm0m&theme=github" width="49%" alt="GitHub stats for shm0m">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shm0m&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shm0m&theme=github" width="49%" alt="Top languages by repo for shm0m">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+    <img src="assets/languages-light.svg" width="49%" alt="Top languages by repo for shm0m">
   </picture>
 </p>
 
