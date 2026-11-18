@@ -7,7 +7,7 @@
 
 **Shaima Derouich**, application security engineer, focused on AI security and LLM red teaming. I look for the flaw nobody modeled, prove it by exploiting it, then build tools that keep looking for it.
 
-MEng Cybersecurity at ECE Paris, based in Paris. I speak French, English, Arabic and Spanish. Off the clock: 2200+ points and 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
+MEng Cybersecurity at ECE Paris, based in Paris. I speak French, English, Arabic and Spanish. Bug bounty hunter on HackerOne since August 2026; off the clock, 2200+ points and 105 challenges on [Root-Me](https://www.root-me.org/klawd-1067490?lang=fr).
 
 <picture>
   <!-- srcset splits on commas, so the icon list is written with %2C -->
@@ -46,6 +46,6 @@ A Lucky Patcher tutorial later, my keys and coins shot up and Prince was mine. T
 
 <br>
 
-[portfolio](https://shaima-drh.vercel.app) · [linkedin](https://linkedin.com/in/shaima-d) · [shaima.derouich@proton.me](mailto:shaima.derouich@proton.me)
+[portfolio](https://www.shaimadrh.xyz) · [linkedin](https://linkedin.com/in/shaima-d) · [shaima.derouich@proton.me](mailto:shaima.derouich@proton.me)
 
-<!-- reading the source is the right instinct. the flag isn't here, but you're warm: https://shaima-drh.vercel.app -->
+<!-- reading the source is the right instinct. the flag isn't here, but you're warm: https://www.shaimadrh.xyz -->
